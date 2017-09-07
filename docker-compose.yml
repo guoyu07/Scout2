@@ -8,3 +8,4 @@ services:
     environment:
       - AWS_SECRET_KEY_ID
       - AWS_SECRET_ACCESS_KEY
+    command: [ "python", "Scout2.py", "--help" ]
