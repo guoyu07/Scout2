@@ -9,4 +9,4 @@ services:
       - AWS_ACCESS_KEY_ID
       - AWS_SECRET_ACCESS_KEY
     volumes:
-      - ./report:/usr/src/app/scout2-report
+      - ./scout2-report:/usr/src/app/scout2-report
