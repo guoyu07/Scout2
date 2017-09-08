@@ -10,3 +10,4 @@ services:
       - AWS_SECRET_ACCESS_KEY
     volumes:
       - ./scout2-report:/usr/src/app/scout2-report
+    command: [ "python", "Scout2.py", "--help" ]
